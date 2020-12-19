@@ -15,23 +15,22 @@ public class MainActivity extends AppCompatActivity {
 
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            //test comment
             setContentView(R.layout.activity_main);
 
-            RecyclerView recycler = (RecyclerView) findViewById(R.id.phone_recycler);
+            RecyclerView recycler = findViewById(R.id.phone_recycler);
 
 
             String[] captions = new String[Phone.phones.length];
-            int[] ids = new int[Phone.phones.length];
+            int[] id = new int[Phone.phones.length];
             String[] desc = new String[Phone.phones.length];
 
             for (int i = 0; i < captions.length; i++) {
                 captions[i] = Phone.phones[i].getName();
-                ids[i] = Phone.phones[i].getImageID();
+                id[i] = Phone.phones[i].getImageID();
                 desc[i] = Phone.phones[i].getDescription();
             }
             recycler.setLayoutManager(new LinearLayoutManager(this));
-            CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(captions, ids);
+            CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(captions, id);
             recycler.setAdapter(adapter);
 
 
