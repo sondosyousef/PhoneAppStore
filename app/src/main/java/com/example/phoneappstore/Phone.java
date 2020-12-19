@@ -8,16 +8,16 @@ public class Phone {
 
 
     public static final Phone[] phones = {
-            new Phone("Apple iPhone 12 Pro Max", R.drawable.pic1,"Released 2020, November 13\n" +
-                    "228g, 7.4mm thickness\n" +
-                    "iOS 14.1, up to iOS 14.2\n" +
-                    "128GB storage, no card slot\n" +
-                    "Price  5799.99\n"),
             new Phone("Apple iPhone 12 ", R.drawable.pic2,"Released 2020, November 13\n" +
                     "135g, 7.4mm thickness\n" +
                     "iOS 14.1, up to iOS 14.2\n" +
                     "128GB storage, no card slot\n" +
                     "Price  4449.99 \n"),
+            new Phone("Apple iPhone 12 Pro Max", R.drawable.pic1,"Released 2020, November 13\n" +
+                    "228g, 7.4mm thickness\n" +
+                    "iOS 14.1, up to iOS 14.2\n" +
+                    "128GB storage, no card slot\n" +
+                    "Price  5799.99\n"),
             new Phone("Apple iPhone 11 ", R.drawable.pic3,"Released 2019, September\n" +
                     "194g, 8.3mm thickness\n" +
                     "iOS 13, up to iOS 13.1.2\n" +
