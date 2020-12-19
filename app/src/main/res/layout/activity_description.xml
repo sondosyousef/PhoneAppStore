@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".description"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/namePhone"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/image1"
+        />
+
+    <TextView
+        android:id="@+id/description_phone"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:onClick="setGoBack"
+        android:text="Back" />
+
+
+</LinearLayout>
